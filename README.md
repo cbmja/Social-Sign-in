@@ -83,9 +83,11 @@
    
    <https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info>
 
+----
 
-위 6단계를 통해 회원의 고유번호를 수집하면 loginType , loginId 항목으로 회원의 pk를 구성할 수 있음.
 
+### 위 6단계를 통해 회원의 고유번호를 수집하면 loginType , loginId 항목으로 회원의 pk를 구성할 수 있음.
+### oauth 프로토콜을 사용하면 위의 과정은 kakao 뿐만 아니라 (거의)모두 동일함
 
 
 
