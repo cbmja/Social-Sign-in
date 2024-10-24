@@ -70,9 +70,28 @@
    
    Content-type: application/x-www-form-urlencoded;charset=utf-8 / 필수
 
-   파라미터 - 공식 문서 참고
+   요청 파라미터 - 공식 문서 참고
 
    
    <https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info>
    
 
+## 6. 응답(회원정보 발급)
+
+   응답 바디 - 공식 문서 참고
+
+   
+   <https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info>
+
+
+위 6단계를 통해 회원의 고유번호를 수집하면 loginType , loginId 항목으로 회원의 pk를 구성할 수 있음.
+
+
+
+
+
+
+
+
+
+   
