@@ -16,7 +16,9 @@
    동의하고 계속하기.
 
 
-## 2. 설정해둔 redirect uri로 인가코드가 발급됨.(설정은 아래 참고)
+## 2. 인가코드 발급 
+
+설정해둔 redirect uri로 인가코드가 발급됨.(설정은 아래 참고)
 
 ----
 
@@ -25,7 +27,7 @@
 
    ### 헤더
    
-   Content-type: application/x-www-form-urlencoded;charset=utf-8
+   Content-type: application/x-www-form-urlencoded;charset=utf-8 / 필수
    
    ### 바디
    
@@ -39,7 +41,7 @@
    
    ${ client_secret } - 선택사항.
    
-## 4. 응답
+## 4. 응답(토큰 발급)
 
    ### 바디
    
@@ -59,5 +61,18 @@
 
 ----
 
+## 5. 회원정보 요청
+   [https://kauth.kakao.com/oauth/token](https://kapi.kakao.com/v2/user/me) - [ POST ] / [ GET ]
 
+   ### 헤더
+   
+   Authorization: Bearer ${ACCESS_TOKEN} / 필수
+   
+   Content-type: application/x-www-form-urlencoded;charset=utf-8 / 필수
+
+   파라미터 - 공식 문서 참고
+
+   
+   <https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info>
+   
 
